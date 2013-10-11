@@ -1,0 +1,34 @@
+.darkPurple-background    { background-color: $darkPurple; }
+.purple-background        { background-color: $purple; }
+.lightPurple-background   { background-color: $lightPurple; }
+.lighterPurple-background { background-color: $lighterPurple; }
+.cream-background         { background-color: $cream; }
+
+.over-image-opacity { @include opacity(0.8); }
+
+.medium-padding        { padding: 15px; }
+.medium-left-padding   { padding-left: 15px; }
+.medium-right-padding  { padding-right: 15px; }
+.medium-bottom-padding { padding-bottom: 15px; }
+.medium-side-padding { 
+  @extend .medium-left-padding;
+  @extend .medium-right-padding;
+}
+.medium-height-padding {
+  @extend .medium-top-padding;
+  @extend .medium-bottom-padding;
+}
+
+.no-margin { margin: 0px; }
+.no-top-margin { margin-top: 0px; }
+.no-right-margin { margin-right: 0px; }
+.no-bottom-margin { margin-bottom: 0px; }
+.no-left-margin { margin-left: 0px; }
+.no-side-margin { 
+  @extend .no-right-margin;
+  @extend .no-left-margin;
+}
+.no-height-margin {
+  @extend .no-top-margin;
+  @extend .no-bottom-margin;
+}

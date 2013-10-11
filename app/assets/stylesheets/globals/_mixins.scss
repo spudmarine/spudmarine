@@ -1,0 +1,7 @@
+@mixin stratum {
+  width: 100%;
+}
+
+@mixin stratumColor($color) {
+  background-color: $color;
+}
