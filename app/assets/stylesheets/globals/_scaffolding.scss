@@ -19,11 +19,13 @@
   @extend .medium-bottom-padding;
 }
 
-.no-margin { margin: 0px; }
-.no-top-margin { margin-top: 0px; }
-.no-right-margin { margin-right: 0px; }
+
+// MARGINS
+.no-margin        { margin: 0px; }
+.no-top-margin    { margin-top: 0px; }
+.no-right-margin  { margin-right: 0px; }
 .no-bottom-margin { margin-bottom: 0px; }
-.no-left-margin { margin-left: 0px; }
+.no-left-margin   { margin-left: 0px; }
 .no-side-margin { 
   @extend .no-right-margin;
   @extend .no-left-margin;
@@ -32,3 +34,61 @@
   @extend .no-top-margin;
   @extend .no-bottom-margin;
 }
+
+.small-margin        { margin: 5px; }
+.small-top-margin    { margin-top: 5px; }
+.small-right-margin  { margin-right: 5px; }
+.small-bottom-margin { margin-bottom: 5px; }
+.small-left-margin   { margin-left: 5px; }
+.small-side-margin {
+  @extend .small-right-margin;
+  @extend .small-left-margin;
+}
+.small-height-margin {
+  @extend .small-top-margin;
+  @extend .small-bottom-margin;
+}
+
+.medium-margin        { margin: 10px; }
+.medium-top-margin    { margin-top: 10px; }
+.medium-right-margin  { margin-right: 10px; }
+.medium-bottom-margin { margin-bottom: 10px; }
+.medium-left-margin   { margin-left: 10px; }
+.medium-side-margin {
+  @extend .medium-right-margin;
+  @extend .medium-left-margin;
+}
+.medium-height-margin {
+  @extend .medium-top-margin;
+  @extend .medium-bottom-margin;
+}
+
+.large-margin        { margin: 15px; }
+.large-top-margin    { margin-top: 15px; }
+.large-right-margin  { margin-right: 15px; }
+.large-bottom-margin { margin-bottom: 15px; }
+.large-left-margin   { margin-left: 15px; }
+.large-side-margin {
+  @extend .large-right-margin;
+  @extend .large-left-margin;
+}
+.large-height-margin {
+  @extend .large-top-margin;
+  @extend .large-bottom-margin;
+}
+
+.xlarge-margin        { margin: 20px; }
+.xlarge-top-margin    { margin-top: 20px; }
+.xlarge-right-margin  { margin-right: 20px; }
+.xlarge-bottom-margin { margin-bottom: 20px; }
+.xlarge-left-margin   { margin-left: 20px; }
+.xlarge-side-margin {
+  @extend .xlarge-right-margin;
+  @extend .xlarge-left-margin;
+}
+.xlarge-height-margin {
+  @extend .xlarge-top-margin;
+  @extend .xlarge-bottom-margin;
+}
+
+

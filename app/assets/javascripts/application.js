@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require bootstrap/bootstrap
 //= require app/all_screen
+//= require app/navigation
 
