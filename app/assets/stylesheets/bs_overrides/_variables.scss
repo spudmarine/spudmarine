@@ -80,7 +80,7 @@ $link-hover-color:      $lightBlue;
 
 // $border-radius-base:             4px !default;
 // $border-radius-large:            6px !default;
-// $border-radius-small:            3px !default;
+$border-radius-small:            2px !default;
 
 // $component-active-bg:            $brand-primary !default;
 
@@ -110,9 +110,9 @@ $link-hover-color:      $lightBlue;
 // $btn-default-bg:                 #fff !default;
 // $btn-default-border:             #ccc !default;
 
-// $btn-primary-color:              #fff !default;
-// $btn-primary-bg:                 $brand-primary !default;
-// $btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+$btn-primary-color:              $cream;
+$btn-primary-bg:                 $cream;
+$btn-primary-border:             $cream;
 
 // $btn-success-color:              #fff !default;
 // $btn-success-bg:                 $brand-success !default;
@@ -601,7 +601,7 @@ $link-hover-color:      $lightBlue;
 // // -------------------------
 
 // // Hr border color
-// $hr-border:                   $gray-lighter !default;
+$hr-border:                   $gray-lighter !default;
 
 // // Horizontal forms & lists
 // $component-offset-horizontal: 180px !default;

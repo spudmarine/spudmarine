@@ -1,6 +1,6 @@
 pageScroll = (link, target) ->
   $(link).click ->
-    $('html, body').animate({scrollTop: $(target).offset().top }, 1000)
+    $('html, body').animate({scrollTop: $(target).offset().top - 50 }, 1000)
 
 
 $ ->

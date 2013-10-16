@@ -18,3 +18,8 @@
   @extend .stratum;
 }
 
+.stratum-purple {
+  @include stratumColor($purple);
+  @extend .stratum;
+}
+
