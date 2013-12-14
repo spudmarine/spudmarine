@@ -9,7 +9,7 @@
 // // Core styles
 .btn {
 //   display: inline-block;
-  padding: $padding-base-vertical $padding-base-horizontal;
+  padding: 6px 12px;
   padding-left: 15px;
   padding-right: 15px;
   font-family: 'Novecentowide-Book';
@@ -23,7 +23,7 @@
 //   vertical-align: middle;
 //   cursor: pointer;
 //   border: 1px solid transparent;
-  border-radius: $border-radius-small;
+  border-radius: 3px;
 //   white-space: nowrap;
 //   @include user-select(none);
 

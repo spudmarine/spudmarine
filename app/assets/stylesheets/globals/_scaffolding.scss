@@ -1,10 +1,15 @@
+body {
+  margin: 0px;
+}
+
+
 .darkPurple-background    { background-color: $darkPurple; }
 .purple-background        { background-color: $purple; }
 .lightPurple-background   { background-color: $lightPurple; }
 .lighterPurple-background { background-color: $lighterPurple; }
 .cream-background         { background-color: $cream; }
 
-.over-image-opacity { @include opacity(0.8); }
+// .over-image-opacity { @include opacity(0.8); }
 
 // PADDING
 .no-padding        { padding: 0px; }
@@ -175,9 +180,9 @@
 
 
 hr.purple {
-  margin-top:    $line-height-computed;
-  margin-bottom: $line-height-computed;
+  // margin-top:    $line-height-computed;
+  // margin-bottom: $line-height-computed;
   border: 0;
   border-top: 1px solid $cream;
-  @include opacity(.2)
+  // @include opacity(.2)
 }

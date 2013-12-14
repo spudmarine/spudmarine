@@ -13,7 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require bootstrap/bootstrap
 //= require app/all_screen
 //= require app/navigation
 

@@ -1,0 +1,11 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Novecentowide-Book';
+}
+
+a {
+  @include transition(all 0.3s ease-in-out);
+  &:hover {
+    color: $lightBlue;
+    text-decoration: none;
+  }
+}
