@@ -2,26 +2,43 @@
   position: fixed;
   border: 1px solid #000;
   top: 0px;
-  background-color: $gray-darker;
+  background-color: $white;
+  opacity: 0.8;
   z-index: 99;
   min-height: 50px;
   width: 100%;
   margin: 0px;
-  font-family: 'Novecentowide-Medium', Arial, sans-serif;
-  a {
-    color: $cream;
-    cursor: pointer;
-    &:hover {
-      color: $lightBlue;
+  .navbar--inner {
+    @include outer-container;
+    color: $gray-darker;
+    font-family: 'Novecentowide-Medium', Arial, sans-serif;
+    a {
+      color: $gray-darker;
+      cursor: pointer;
+      &:hover {
+        color: $lightBlue;
+      }
     }
-  }
-  ul {
-    float: right;
-    li {
-      display: inline-block;
-      margin: auto 15px;
-      line-height: 50px;
-      font-size: 16px;
+    ul {
+      float: right;
+      li {
+        display: inline-block;
+        margin: auto 15px;
+        line-height: 50px;
+        font-size: 16px;
+      }
+    }
+    .navbar--logo {
+      @include span-columns(4);
+      padding: 10px;
+      img, p {
+        display: inline-block;
+      }
+      img {
+        width: 32px;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
     }
   }
 }
