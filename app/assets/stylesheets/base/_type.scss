@@ -9,3 +9,12 @@ a {
     text-decoration: none;
   }
 }
+
+.hero-font {
+  font-size: 4em;
+  font-family: 'Novecentowide-Light';
+}
+
+.hero-font--gray {
+  color: $gray-light;
+}

@@ -1,6 +1,6 @@
 .navbar {
+  border: none;
   position: fixed;
-  border: 1px solid #000;
   top: 0px;
   background-color: $white;
   opacity: 0.8;
@@ -8,36 +8,38 @@
   min-height: 50px;
   width: 100%;
   margin: 0px;
-  .navbar--inner {
-    @include outer-container;
-    color: $gray-darker;
-    font-family: 'Novecentowide-Medium', Arial, sans-serif;
-    a {
-      color: $gray-darker;
-      cursor: pointer;
-      &:hover {
-        color: $lightBlue;
-      }
-    }
-    ul {
-      float: right;
-      li {
-        display: inline-block;
-        margin: auto 15px;
-        line-height: 50px;
-        font-size: 16px;
-      }
-    }
-    .navbar--logo {
-      @include span-columns(4);
-      padding: 10px;
-      img, p {
-        display: inline-block;
-      }
-      img {
-        width: 32px;
-        vertical-align: middle;
-        margin-right: 10px;
+}
+.navbar--inner {
+  @include outer-container;
+  color: $gray-darker;
+  font-family: 'Novecentowide-Medium', Arial, sans-serif;
+}
+.navbar--elements {
+  @include span-columns(12);
+  @include row(table);
+  padding: 15px;
+  img, p {
+    display: inline-block;
+  }
+  img {
+    width: 32px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  ul {
+    float: right;
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      margin: auto 15px;
+      font-size: 16px;
+      a {
+        line-height: 32px;
+        color: $gray-darker;
+        cursor: pointer;
+        &:hover {
+          color: $lightBlue;
+        }
       }
     }
   }
