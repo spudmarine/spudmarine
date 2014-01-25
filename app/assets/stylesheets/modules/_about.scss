@@ -1,0 +1,21 @@
+.about-container {
+  background-image: url('/assets/backgrounds/ape.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.tp {
+  h1 {
+    color: $gray-lighter;
+  }
+  color: $white;
+  padding: 40px;
+  border-radius: 3px;
+  @include outer-container;
+  box-sizing: border-box;
+  background-color: $gray-darker;
+  opacity: 0.9;
+}

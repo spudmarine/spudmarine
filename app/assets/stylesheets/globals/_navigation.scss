@@ -1,5 +1,6 @@
 .navbar {
-  border: none;
+  border-bottom: 1px solid $white;
+  // border: none;
   position: fixed;
   top: 0px;
   background-color: $white;
@@ -11,13 +12,16 @@
 .navbar--inner {
   @include outer-container;
   color: $gray-darker;
-  font-family: 'Novecentowide-Medium', Arial, sans-serif;
+  p, a, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Novecentowide-Medium', Arial, sans-serif;
+  }
 }
 .navbar--elements {
   @include span-columns(12);
   @include row(table);
-  padding: 15px;
+  // padding: 15px;
   img, p {
+    margin: 15px 0px;
     display: inline-block;
   }
   img {
@@ -28,17 +32,15 @@
   ul {
     float: right;
     li {
+      @include transition(all .2s ease-in-out);
+      box-sizing: border-box;
       display: inline-block;
       vertical-align: middle;
-      margin: auto 15px;
+      padding: 15px;
       font-size: 16px;
-      a {
-        line-height: 32px;
-        color: $gray-darker;
-        cursor: pointer;
-        &:hover {
-          color: $lightBlue;
-        }
+      &:hover {
+        background-color: $lightBlue;
+        color: $white;
       }
     }
   }

@@ -2,7 +2,7 @@ resizeStrata = ->
   allScreen('.all-screen')
 
 allScreen = (element) ->
-  height = $(window).height()
+  height = $(window).height() * .95
   $(element).each ->
     el = $(this)
     el.height((height - 51) + "px")

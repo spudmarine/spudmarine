@@ -1,12 +1,30 @@
 %nav.navbar
   .navbar--inner
     .navbar--elements
-      %img{src: "/assets/icons/gray-darker-logo.svg"}
       %p Jenny Jayne
       %ul
-        %li
-          %a Portfolio
-        %li
-          %a About Me
-        %li
-          %a Contact
+        = link_to "#portfolio" do
+          %li Portfolio
+        = link_to "#about" do
+          %li About Me
+        = link_to "#contact" do
+          %li Contact
+
+:javascript
+  
+  $(document).ready(function() {
+
+    // Get nav height to clear nav
+    var navHeight = $("nav").height();
+
+    // Smoothly move the users to the sections
+    $("ul a").on("click", function() {
+
+      $("html, body").animate({
+        scrollTop: $($(this).attr("href")).offset().top - navHeight
+      });
+      return false;
+
+    });
+
+  });

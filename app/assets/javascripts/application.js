@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require app/all_screen
 //= require app/navigation
+//= require app/fade_scroll
 

@@ -1,9 +1,20 @@
 .port-grid {
+  box-sizing: border-box;
   .port-row {
+    &:first-of-type {
+      padding-top: 2px;
+    }
+    &:last-of-type {
+      padding-bottom: 2px;
+    }
     background-color: $white;
     @include span-columns(12);
     @include row(table);
+    float: none;
     .piece {
+      @include transition(all .2s ease-in-out);
+      background-color: $gray-lighter;
+      cursor: pointer;
       box-sizing: border-box;
       position: relative;
       @include span-columns(4);
@@ -11,8 +22,13 @@
       width: 50%;
       background-size: cover;
       border: 2px solid $white;
-      &.larger {
-        @include span-columns(8);
+      text-align: center;
+      background-repeat: no-repeat;
+      background-size: 250px;
+      background-position-x: center;
+      background-position-y: 50%;
+      &:hover {
+        background-color: $lightBlue;
       }
       &:first-of-type {
         margin-right: 6px !important;
@@ -34,46 +50,35 @@
         padding-top: 38.2%;
       }
       &.gopro-redesign {
-        background-image: url('/assets/work_thumbnails/GoPro_Logo.svg');
-        background-color: $gray;
-        text-align: center;
-        background-repeat: no-repeat;
-        background-size: 250px;
-        background-position-x: center;
-        background-position-y: 50%;
-        &:hover {
-          background-image: url('/assets/work_thumbnails/gopro.gif');
-          background-size: 100%;
-          cursor: pointer;
-        }
+        background-image: url('/assets/work_thumbnails/GoPro_Logo-black.svg');
+        // filter: url(filters.svg#grayscale);
+        // filter: gray;
+        // -webkit-filter: grayscale(1);
+        // &:hover {
+        //   filter: none;
+        //   -webkit-filter: grayscale(0);
+        // }
       }
       &.five9 {
         background-image: url('/assets/work_thumbnails/five9-logo.png');
-        background-color: $white;
-        text-align: center;
-        background-repeat: no-repeat;
         background-size: 125px;
-        background-position-x: center;
-        background-position-y: 50%;
-        &:hover {
-          background-image: url('/assets/work_thumbnails/five9-homepage-thumb.jpg');
-          background-size: cover;
-          cursor: pointer;
-        }
+        // filter: url(filters.svg#grayscale);
+        // filter: gray;
+        // -webkit-filter: grayscale(1);
+        // &:hover {
+        //   filter: none;
+        //   -webkit-filter: grayscale(0);
+        // }
       }
       &.pop {
         background-image: url('/assets/work_thumbnails/pop-logo.png');
-        background-color: $gray-lighter;
-        text-align: center;
-        background-repeat: no-repeat;
-        background-size: 250px;
-        background-position-x: center;
-        background-position-y: 50%;
-        &:hover {
-          background-image: url('/assets/work_thumbnails/pop-thumb.jpg');
-          background-size: 100%;
-          cursor: pointer;
-        }
+        // filter: url(filters.svg#grayscale);
+        // filter: gray;
+        // -webkit-filter: grayscale(1);
+        // &:hover {
+        //   filter: none;
+        //   -webkit-filter: grayscale(0);
+        // }
       }
       &.spudmarine {
         background-image: url('/assets/work_thumbnails/nested-j-thumb.jpg');
@@ -82,46 +87,34 @@
         background-image: url('/assets/work_thumbnails/gopro-checkout-thumb.jpg');
       }
       &.tank18 {
-        background-image: url('/assets/work_thumbnails/tank-logo-light.svg');
-        background-color: $gray-dark;
-        text-align: center;
-        background-repeat: no-repeat;
-        background-size: 250px;
-        background-position-x: center;
-        background-position-y: 50%;
-        &:hover {
-          background-image: url('/assets/work_thumbnails/tank18-thumb.jpg');
-          background-size: 100%;
-          cursor: pointer;
-        }
+        background-image: url('/assets/work_thumbnails/tank-logo.svg');
+        // filter: url(filters.svg#grayscale);
+        // filter: gray;
+        // -webkit-filter: grayscale(1);
+        // &:hover {
+        //   filter: none;
+        //   -webkit-filter: grayscale(0);
+        // }
       }
       &.pitchbook {
         background-image: url('/assets/work_thumbnails/pitchbook-logo.png');
-        background-color: $white;
-        text-align: center;
-        background-repeat: no-repeat;
-        background-size: 250px;
-        background-position-x: center;
-        background-position-y: 50%;
-        &:hover {
-          background-image: url('/assets/work_thumbnails/pitchbook-thumb.jpg');
-          background-size: 100%;
-          cursor: pointer;
-        }
+        // filter: url(filters.svg#grayscale);
+        // filter: gray;
+        // -webkit-filter: grayscale(1);
+        // &:hover {
+        //   filter: none;
+        //   -webkit-filter: grayscale(0);
+        // }
       }
       &.excel {
         background-image: url('/assets/work_thumbnails/excel-logo.png');
-        background-color: $gray-lighter;
-        text-align: center;
-        background-repeat: no-repeat;
-        background-size: 250px;
-        background-position-x: center;
-        background-position-y: 50%;
-        &:hover {
-          background-image: url('/assets/work_thumbnails/exceleverest-thumb.jpg');
-          background-size: 100%;
-          cursor: pointer;
-        }
+        // filter: url(filters.svg#grayscale);
+        // filter: gray;
+        // -webkit-filter: grayscale(1);
+        // &:hover {
+        //   filter: none;
+        //   -webkit-filter: grayscale(0);
+        // }
       }
     }
   }
