@@ -13,7 +13,8 @@
   @include outer-container;
   color: $gray-darker;
   p, a, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Novecentowide-Medium', Arial, sans-serif;
+    text-transform: uppercase;
+    @extend %novecentosanswide-medium;
   }
 }
 .navbar--elements {

@@ -1,60 +1,30 @@
-// NOVECENTO FONTS
-@font-face {
-  font-family: 'Novecentowide-Bold', Arial, sans-serif;
-  src: asset_url('288FCB_0_0.eot', fonts);
-  src: asset_url('288FCB_0_0.eot?#iefix', fonts) format('embedded-opentype'),
-    asset_url('288FCB_0_0.woff', fonts) format('woff'),
-    asset_url('288FCB_0_0.ttf', fonts) format('truetype');
+.novecentosanswide-bold, %novecentosanswide-bold { 
+  font-family: Novecentosanswide-Bold, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Novecentowide-DemiBold', Arial, sans-serif;
-  src: asset_url('288FCB_1_0.eot', fonts);
-  src: asset_url('288FCB_1_0.eot?#iefix', fonts) format('embedded-opentype'),
-    asset_url('288FCB_1_0.woff', fonts) format('woff'),
-    asset_url('288FCB_1_0.ttf', fonts) format('truetype');
+.novecentosanswide-book, %novecentosanswide-book { 
+  font-family: Novecentosanswide-Book, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Novecentowide-Book', Arial, sans-serif;
-  src: asset_url('288FCB_2_0.eot', fonts);
-  src: asset_url('288FCB_2_0.eot?#iefix', fonts) format('embedded-opentype'),
-    asset_url('288FCB_2_0.woff', fonts) format('woff'),
-    asset_url('288FCB_2_0.ttf', fonts) format('truetype');
+.novecentosanswide-demibold, %novecentosanswide-demibold { 
+  font-family: Novecentosanswide-DemiBold, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Novecentowide-Normal', Arial, sans-serif;
-  src: asset_url('288FCB_3_0.eot', fonts);
-  src: asset_url('288FCB_3_0.eot?#iefix', fonts) format('embedded-opentype'),
-    asset_url('288FCB_3_0.woff', fonts) format('woff'),
-    asset_url('288FCB_3_0.ttf', fonts) format('truetype');
+.novecentosanswide-light, %novecentosanswide-light { 
+  font-family: Novecentosanswide-Light, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Novecentowide-Medium', Arial, sans-serif;
-  src: asset_url('288FCB_4_0.eot', fonts);
-  src: asset_url('288FCB_4_0.eot?#iefix', fonts) format('embedded-opentype'),
-    asset_url('288FCB_4_0.woff', fonts) format('woff'),
-    asset_url('288FCB_4_0.ttf', fonts) format('truetype');
+.novecentosanswide-medium, %novecentosanswide-medium { 
+  font-family: Novecentosanswide-Medium, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Novecentowide-Light', Arial, sans-serif;
-  src: asset_url('29757E_0_0.eot', fonts);
-  src: asset_url('29757E_0_0.eot?#iefix', fonts) format('embedded-opentype'),
-    asset_url('29757E_0_0.woff', fonts) format('woff'),
-    asset_url('29757E_0_0.ttf', fonts) format('truetype');
+.novecentosanswide-normal { 
+  font-family: Novecentosanswide-Normal, sans-serif;
   font-weight: normal;
   font-style: normal;
 }

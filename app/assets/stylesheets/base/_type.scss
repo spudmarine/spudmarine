@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Novecentowide-Book';
+  text-transform: uppercase;
+  @extend %novecentosanswide-book;
 }
 
 a {
@@ -14,22 +15,24 @@ a {
 }
 
 .hero-font {
+  text-transform: uppercase;
   font-size: 4em;
-  font-family: 'Novecentowide-Light';
+  @extend %novecentosanswide-light;
 }
 
 .hero-font--gray {
+  text-transform: uppercase;
   color: $gray-light;
 }
 
 .hero-font--white {
+  text-transform: uppercase;
   color: $white;
 }
 
 h1 {
   margin: 0px;
-  font-family: 'Novecentowide-Light';
-  font-weight: normal;
+  @extend %novecentosanswide-light;
   font-size: 2.5em;
 }
 
