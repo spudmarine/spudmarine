@@ -2,10 +2,10 @@ resizeStrata = ->
   allScreen('.all-screen')
 
 allScreen = (element) ->
-  height = $(window).height() * .95
+  height = $(window).height()
   $(element).each ->
     el = $(this)
-    el.height((height - 51) + "px")
+    el.height((height) + "px")
 
 resizeDiv = ->
   meetScreen('.meet-screen', '.line-height-match')

@@ -10,6 +10,7 @@
     background-color: $white;
     @include span-columns(12);
     @include row(table);
+    padding-right: 0px;
     float: none;
     .piece {
       @include transition(all .2s ease-in-out);

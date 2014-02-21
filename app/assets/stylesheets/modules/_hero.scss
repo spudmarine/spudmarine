@@ -1,0 +1,10 @@
+.hero {
+  background-image: url('/assets/backgrounds/painted-ladies.jpg');
+  background-size: cover;
+}
+
+.lead-btn {
+  @extend %novecentosanswide-medium;
+  position: absolute;
+  bottom: 30px;
+}

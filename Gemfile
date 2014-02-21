@@ -4,6 +4,7 @@ gem 'haml'
 gem 'sprockets', '~> 2.0'
 gem 'bourbon'
 gem 'neat'
+gem 'foreman'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'

@@ -15,16 +15,14 @@
 
 @import 'bourbon/bourbon';
 @import 'neat/neat';
-@import 'bitters/bitters';
+@import 'base/bitters/bitters';
 
 @import 'normalize';
 
-@import 'base/novecento';
-
 @import 'base/base';
+
+@import 'components/components';
 
 @import 'layouts/layouts';
 
 @import 'modules/modules';
-
-@import 'globals/globals';

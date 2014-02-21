@@ -1,0 +1,47 @@
+// TOP NAVIGATION
+////////////////////////////////////////////////////////////////////////////////
+
+// Fix Nav Bar to Top
+.nav {
+  position: fixed;
+  top: 0px;
+  background-color: rgba(0,0,0,0);
+  z-index: 99;
+  width: 100%;
+}
+
+// Set Up Styles for Nav Bar
+.nav__inner {
+  @include outer-container;
+  padding-top: 20px;
+  color: $gray-light;
+  text-transform: uppercase;
+  @extend %novecentosanswide-medium;
+  a, li {
+    color: $gray-light;
+    &:hover {
+      color: $lightBlue;
+    }
+  }
+}
+
+// Span Title Section
+.nav__title {
+  @include span-columns(3);
+}
+
+// Span List Section
+.nav__list {
+  @include span-columns(9);
+  ul {
+    float: right;
+    li {
+      @include transition(all .2s ease-in-out);
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 16px;
+    }
+  }
+}

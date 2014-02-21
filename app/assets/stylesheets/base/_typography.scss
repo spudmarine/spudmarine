@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: $novecentosanswide-book;
+}
+
+h1 {
+  margin: 0px;
+  font-family: $novecentosanswide-light;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+}
+
+a {
+  cursor: pointer;
+  color: $gray-darker;
+  transition: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  &:hover {
+    color: $lightBlue;
+    text-decoration: none;
+  }
+}
