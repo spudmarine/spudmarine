@@ -82,7 +82,7 @@ body {
 
 // 20px Padding
 .p-20, %p-20   { padding: 20px; }
-.pt-20, %pt-20 { padding: 20px; }
+.pt-20, %pt-20 { padding-top: 20px; }
 .pl-20, %pl-20 { padding-left: 20px; }
 .pr-20, %pr-20 { padding-right: 20px; }
 .pb-20, %pb-20 { padding-bottom: 20px; }
@@ -108,6 +108,21 @@ body {
 .ptb-30 {
   @extend %pt-30;
   @extend %pb-30;
+}
+
+// 50px Padding
+.p-50, %p-50   { padding: 50px; }
+.pt-50, %pt-50 { padding-top: 50px; }
+.pl-50, %pl-50 { padding-left: 50px; }
+.pr-50, %pr-50 { padding-right: 50px; }
+.pb-50, %pb-50 { padding-bottom: 50px; }
+.prl-50 { 
+  @extend %pl-50;
+  @extend %pr-50;
+}
+.ptb-50 {
+  @extend %pt-50;
+  @extend %pb-50;
 }
 
 
@@ -192,11 +207,11 @@ body {
 }
 
 // 25px Margin
-.m-25, %m-25        { margin: 25px; }
-.mt-25, %mt-25    { margin-top: 25px; }
-.mr-25, %mr-25  { margin-right: 25px; }
+.m-25, %m-25   { margin: 25px; }
+.mt-25, %mt-25 { margin-top: 25px; }
+.mr-25, %mr-25 { margin-right: 25px; }
 .mb-25, %mb-25 { margin-bottom: 25px; }
-.ml-25, %ml-25   { margin-left: 25px; }
+.ml-25, %ml-25 { margin-left: 25px; }
 .mrl-25 {
   @extend %mr-25;
   @extend %ml-25;
@@ -204,6 +219,51 @@ body {
 .mtb-25 {
   @extend %mt-25;
   @extend %mb-25;
+}
+
+// 30px Margin
+.m-30, %m-30   { margin: 30px; }
+.mt-30, %mt-30 { margin-top: 30px; }
+.mr-30, %mr-30 { margin-right: 30px; }
+.mb-30, %mb-30 { margin-bottom: 30px; }
+.ml-30, %ml-30 { margin-left: 30px; }
+.mrl-30 {
+  @extend %mr-30;
+  @extend %ml-30;
+}
+.mtb-30 {
+  @extend %mt-30;
+  @extend %mb-30;
+}
+
+// 40px Margin
+.m-30, %m-40   { margin: 40px; }
+.mt-40, %mt-40 { margin-top: 40px; }
+.mr-40, %mr-40 { margin-right: 40px; }
+.mb-40, %mb-40 { margin-bottom: 40px; }
+.ml-40, %ml-40 { margin-left: 40px; }
+.mrl-40 {
+  @extend %mr-40;
+  @extend %ml-40;
+}
+.mtb-40 {
+  @extend %mt-40;
+  @extend %mb-40;
+}
+
+// 40px Margin
+.m-50, %m-50   { margin: 50px; }
+.mt-50, %mt-50 { margin-top: 50px; }
+.mr-50, %mr-50 { margin-right: 50px; }
+.mb-50, %mb-50 { margin-bottom: 50px; }
+.ml-50, %ml-50 { margin-left: 50px; }
+.mrl-50 {
+  @extend %mr-50;
+  @extend %ml-50;
+}
+.mtb-50 {
+  @extend %mt-50;
+  @extend %mb-50;
 }
 
 

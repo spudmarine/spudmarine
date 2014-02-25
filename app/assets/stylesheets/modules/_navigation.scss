@@ -14,6 +14,7 @@
 .nav__inner {
   @include outer-container;
   padding-top: 20px;
+  padding-bottom: 20px;
   color: $gray-light;
   text-transform: uppercase;
   @extend %novecentosanswide-medium;

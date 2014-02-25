@@ -1,17 +1,33 @@
 #about.about-container
-  .tp
-    .full-row
-      %h1{style: "margin-bottom: 15px;"} About Me
-    .full-row.xlarge-top-margin
-      .one-third
-        .xxlarge-padding{style: "text-align: center; border: 2px solid #555; border-radius: 3px; width: 100%"}
-          %img{src: "/assets/icons/globe-white.svg", style: "width: 100px; opacity: 0.75;"}
-        %p.xlarge-padding I was born and raised in Indianapolis, IN, also known as Naptown. Ever since I can remember, my family has had tickets for the Indy 500 and we go every year, rain or shine.
-      .one-third
-        .xxlarge-padding{style: "text-align: center; border: 2px solid #555; border-radius: 3px; width: 100%"}
-          %img{src: "/assets/icons/bow-tie-white.svg", style: "width: 100px; opacity: 0.75;"}
-        %p.xlarge-padding If I could live out one wild sci-fi fantasy, it would be to run off with The Doctor. Particularly the eleventh doctor, but I would take the tenth in a heartbeat. Bow ties ARE cool.
-      .one-third
-        .xxlarge-padding{style: "text-align: center; border: 2px solid #555; border-radius: 3px; width: 100%"}
-          %img{src: "/assets/icons/director.svg", style: "width: 100px; opacity: 0.75;"}
-        %p.xlarge-padding When I was in high school, I wrote, produced and directed a musical that was a Jamaican parody of Wizard of Oz. It was called "Ooman's Dream," as yes, that was as embarrassing to reveal as it was for you to read.
+  .full-row.pt-50
+    .col11
+      %h1 About Me
+    .col1
+      %img{src: "/assets/jenny-new-years-square.jpg", style: "width: 50px; border-radius: 50%; border: 1px solid #ccc;"}
+  .full-row.pb-50
+    .col8.pr-20.ptb-20{style: "border-right: 1px solid #ccc;"}
+      %p I'm Jenny Jayne, UX/UI Designer & Engineer. I've been in the field since 2010. I graduated from Indiana University with two degrees - a BS in Informatics and a BA in Political Science. You're probably like, "Poly sci, what?" Well, I wanted to be an international lawyer so I could travel the globe and save the world. Once I found human-centered design, however, I realized I could improve people's lives through everyday interactions and keep my sanity, too.
+      %p.mt-10 Being an UX designer allows me to remove pain points from people's lives and even add some delight to their day. Everytime I am able to do that, I know that I've contributed a bit to the common good. And that's what I want to do. I want to help people, plain and simple. Whether that's through creating products that help people communicate better, engineering workflows that remove some stress from someone's day job, or architecting applications that help launch shuttles to Mars, I want to do good.
+      %p.mt-10 But I'm not just a designer. I'm an avid Donkey Kong player. I'm a mom to a dog named Moose. I'm a supporter of the Girls Scouts of America through vociferous cookie purchases. In another life, I may have been an astrophysicist.
+    .col4.ptb-20
+      %p.pb-10{style: "font-weight: bold;"} FACTOIDS
+      .full-row
+        .col1
+          %h5
+            %div{"data-icon" => "h"}
+        .col11
+          %p Being from Indianapolis, my family gets tickets every year for the Indy 500, and we go rain or shine.
+      .full-row
+        .mt-10
+          .col1
+            %h5
+              %div{"data-icon" => "k"}
+          .col11
+            %p My wild sci-fi fantasy is to be a companion to the Doctor.
+      .full-row
+        .mt-10
+          .col1
+            %h5
+              %div{"data-icon" => "j"}
+          .col11
+            %p In high school I co-wrote, directed and produced a musical called "Ooman's Dream," a Jamaican themed "Wizard of Oz." Yes, that's embarassing to admit.

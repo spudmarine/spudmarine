@@ -8,7 +8,7 @@ fadeObject = (fadeStart, fadeUntil) ->
 
     if offset <= fadeStart
       objOpacity = 1
-    else objOpacity = (1 - offset / fadeUntil)  if offset <= fadeUntil
+    else objOpacity = (1 - offset / fadeUntil) if offset <= fadeUntil
 
     toFade.css 'opacity', objOpacity
 
