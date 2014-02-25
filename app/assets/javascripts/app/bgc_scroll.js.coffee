@@ -1,6 +1,6 @@
 colorObject = (colorStart, colorUntil) ->
 
-  toColor = $('.nav')
+  toColor = $('.nav--home')
 
   $(window).bind 'scroll', ->
     offset = $(document).scrollTop()
@@ -14,7 +14,7 @@ colorObject = (colorStart, colorUntil) ->
 
 addEventListeners = ->
 
-  $('.nav').each ->
+  $('.nav--home').each ->
 
     colorStart = 0
     colorUntil = 0 + $('.hero').height()

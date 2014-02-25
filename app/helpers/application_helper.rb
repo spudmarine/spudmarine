@@ -10,4 +10,8 @@ module ApplicationHelper
     end
   end
 
+  def home_nav?(page_name)
+    "nav--home" if params[:action] == page_name
+  end
+
 end
