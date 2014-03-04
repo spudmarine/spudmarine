@@ -1,15 +1,17 @@
 %nav.nav{class: home_nav?("home")}
-  .nav__inner
-    .nav__title
-      = link_to "Jenny Jayne", "#top"
-    .nav__list
-      %ul
-        = link_to "#portfolio" do
-          %li Portfolio
-        = link_to "#about" do
-          %li About Me
-        = link_to "#contact" do
-          %li Contact
+  .row.nav__inner
+    .large-3.small-12.medium-3.columns
+      .nav__title
+        = link_to "Jenny Jayne", "#top"
+    .large-9.hide-palm.medium-9.columns
+      .nav__list
+        %ul
+          = link_to "#portfolio" do
+            %li Portfolio
+          = link_to "#about" do
+            %li About Me
+          = link_to "#contact" do
+            %li Contact
 
 :javascript
   

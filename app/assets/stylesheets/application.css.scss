@@ -13,11 +13,11 @@
 
 @import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic|Duru+Sans|Muli:300,400,400italic,300italic|Varela+Round);
 
-@import 'bourbon/bourbon';
-@import 'neat/neat';
-@import 'base/bitters/bitters';
-
 @import 'normalize';
+
+@import 'bourbon/bourbon';
+@import 'foundation.min';
+@import 'base/bitters/bitters';
 
 @import 'base/base';
 
@@ -26,3 +26,5 @@
 @import 'layouts/layouts';
 
 @import 'modules/modules';
+
+@import 'themes/themes';

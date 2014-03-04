@@ -13,6 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require foundation.min
+//= require foundation_vendor/fastclick
+//= require foundation_vendor/jquery.cookie
+//= require foundation_vendor/modernizr
+//= require foundation_vendor/placeholder
 //= require app/all_screen
 //= require app/navigation
 //= require app/fade_scroll

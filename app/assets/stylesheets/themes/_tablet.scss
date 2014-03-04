@@ -1,0 +1,25 @@
+@media all and (min-width: $tablet-min) {
+  h1 { 
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  h2 { 
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .hero-font {
+  	font-size: 4rem;
+  	line-height: 4rem;
+  }
+
+  .page-jump {
+  	font-size: 2.25rem;
+  	line-height: 2.25rem;
+  }
+
+  .hero-padding {
+    padding-top: 10.75rem;
+    padding-bottom: 8.25rem;
+  }
+}

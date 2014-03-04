@@ -1,10 +1,33 @@
 .hero {
-  background-image: url('/assets/backgrounds/painted-ladies.jpg');
+  background-image: url('/assets/backgrounds/presidio-opt.jpg');
+  background-size: 100%;
   background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat no-repeat;
+  @include box-shadow(inset 0px 2px 5px rgba($black, 0.2), inset 0px -3px 10px rgba($black, 0.4));
 }
 
-.lead-btn {
-  @extend %novecentosanswide-medium;
-  position: absolute;
-  bottom: 30px;
+.hero-font {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: $novecentosanswide-light;
+  line-height: 3rem;
+  font-weight: normal;
+}
+
+.hero-font--gray {
+  color: $gray-light;
+}
+
+.hero-font--white {
+  color: $white;
+}
+
+.page-jump {
+  font-size: 1.75rem;
+}
+
+.hero-padding {
+  padding-top: 8.75rem;
+  padding-bottom: 6.25rem;
 }

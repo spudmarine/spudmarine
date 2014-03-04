@@ -1,0 +1,25 @@
+@media all and (min-width: $lap-min) {
+  h1 { 
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  h2 { 
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .hero-font {
+  	font-size: 6rem;
+  	line-height: 6rem;
+  }
+
+  .page-jump {
+  	font-size: 2.5rem;
+  	line-height: 2.5rem;
+  }
+
+  .hero-padding {
+    padding-top: 12.75rem;
+    padding-bottom: 10.25rem;
+  }
+}

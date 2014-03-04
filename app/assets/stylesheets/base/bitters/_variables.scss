@@ -8,8 +8,8 @@ $header-font-family: $base-font-family;
 
 // Sizes
 ///////////////////////////////////////////////////////////////////////////////
-$base-font-size: 1em;
-$base-line-height: $base-font-size * 1.5;
+$base-font-size: 1.6rem; // = 16px
+$base-line-height: $base-font-size * 1.5; // = 24px
 $base-border-radius: em(3);
 
 // Colors

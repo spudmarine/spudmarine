@@ -1,24 +1,18 @@
-.hero-font {
-  text-transform: uppercase;
-  font-size: 4em;
-  font-family: $novecentosanswide-light;
-  line-height: 0.5em;
-}
+// TYPOGRAPHY
+//
+//////////////////////////////////////////////////////////////////////
 
-.hero-font--gray {
-  text-transform: uppercase;
-  color: $gray-light;
-}
-
-.hero-font--white {
-  text-transform: uppercase;
-  color: $white;
-}
-
-.link-dark {
+// DARK LINKS
+a.link-dark,
+a:active.link-dark,
+a:focus.link-dark {
 	color: $white;
+	&:hover {
+    color: $lightBlue;
+  }
 }
 
-.ta-r {
-  text-align: right;
-}
+// TEXT ALIGN
+.ta-r, %ta-r { text-align: right; }
+.ta-l, %ta-l { text-align: left; }
+.ta-c, %ta-c { text-align: center; }

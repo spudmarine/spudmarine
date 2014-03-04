@@ -8,8 +8,8 @@
       padding-bottom: 2px;
     }
     background-color: $white;
-    @include span-columns(12);
-    @include row(table);
+    // @include span-columns(12);
+    // @include row(table);
     padding-right: 0px;
     float: none;
     .piece {
@@ -18,8 +18,8 @@
       cursor: pointer;
       box-sizing: border-box;
       position: relative;
-      @include span-columns(4);
-      @include pad();
+      // @include span-columns(4);
+      // @include pad();
       width: 50%;
       background-size: cover;
       border: 2px solid $white;

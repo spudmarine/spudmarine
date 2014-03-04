@@ -1,21 +1,3 @@
-// BODY
-//
-////////////////////////////////////////////////////////////////////////////////
-body {
-  margin: 0px;
-}
-
-// BACKGROUND COLORS
-//
-////////////////////////////////////////////////////////////////////////////////
-.bg-dp, %bg-dp    { background-color: $darkPurple; }
-.bg-p, %bg-p      { background-color: $purple; }
-.bg-lp, %bg-lp    { background-color: $lightPurple; }
-.bg-lrp, %bg-lrp  { background-color: $lighterPurple; }
-.bg-c, %bg-c      { background-color: $cream; }
-
-
-
 // PADDING
 //
 ////////////////////////////////////////////////////////////////////////////////
@@ -124,6 +106,9 @@ body {
   @extend %pt-50;
   @extend %pb-50;
 }
+
+// CLEAR NAVBAR
+.navbar-clear { padding-top: 50px; }
 
 
 
@@ -264,17 +249,4 @@ body {
 .mtb-50 {
   @extend %mt-50;
   @extend %mb-50;
-}
-
-
-
-// Purple HR
-////////////////////////////////////////////////////////////////////////////////
-// TODO: Move
-hr.crm {
-  // margin-top:    $line-height-computed;
-  // margin-bottom: $line-height-computed;
-  border: 0;
-  border-top: 1px solid $cream;
-  // @include opacity(.2)
 }

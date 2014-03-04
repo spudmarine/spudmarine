@@ -16,7 +16,7 @@
 
 // Set Up Styles for Nav Bar
 .nav__inner {
-  @include outer-container;
+  @extend .row;
   padding-top: 20px;
   padding-bottom: 20px;
   color: $gray-light;
@@ -32,12 +32,12 @@
 
 // Span Title Section
 .nav__title {
-  @include span-columns(3);
+  // @include span-columns(3);
 }
 
 // Span List Section
 .nav__list {
-  @include span-columns(9);
+  // @include span-columns(9);
   ul {
     float: right;
     li {
