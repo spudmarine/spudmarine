@@ -22,4 +22,11 @@
     padding-top: 12.75rem;
     padding-bottom: 10.25rem;
   }
+
+  .piece {
+    background-size: 225px;
+    &:before {
+      padding-top: 75%;
+    }
+  }
 }
