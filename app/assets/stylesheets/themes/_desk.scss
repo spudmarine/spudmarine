@@ -29,4 +29,17 @@
       padding-top: 75%;
     }
   }
+
+  .contact-container {
+
+    a[data-icon] {
+      font-size: 6rem;
+    }
+
+    .email {
+      font-size: 2rem;
+      line-height: 6rem;
+      padding-bottom: 0px;
+    }
+  }
 }
