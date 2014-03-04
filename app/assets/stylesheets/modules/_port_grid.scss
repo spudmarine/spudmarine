@@ -2,15 +2,15 @@
   @include transition(all .2s ease-in-out);
   background-color: $gray-lighter;
   border: 2px solid $white;
-  cursor: pointer;
   background-size: cover;
   text-align: center;
   background-repeat: no-repeat;
   background-size: 175px;
   background-position-x: center;
   background-position-y: 50%;
-  &:hover {
+  a:hover {
     background-color: $mintGreen;
+    cursor: pointer;
   }
   &:before {
     content: "";
