@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'ruby', '2.0.0'
 
 gem 'haml'
 gem 'sprockets', '~> 2.0'
