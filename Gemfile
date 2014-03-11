@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.0'
 
 gem 'haml'
-gem 'sprockets', '~> 2.0'
+gem 'sprockets'
 gem 'bourbon'
 gem 'neat'
 gem 'foreman'
