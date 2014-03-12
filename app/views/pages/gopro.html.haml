@@ -1,5 +1,10 @@
 = render 'nav'
 
-.full-row.clear-nav
-	%h1 GoPro
-	%p{style: "color: #999; font-size: 14px;"} May 2012 - March 2014
+.row.clear-nav
+	.small-12.medium-8.columns
+		%h1 GoPro
+		%p May 2012 - March 2014
+	.small-12.medium-4.columns
+		%a.flt-r--desk{href: "http://www.gopro.com", target: "_blank"}
+			%div{"data-icon" => "v", style: "display: inline-block; vertical-align: middle;"}
+			.ml-10{style: "display: inline-block; text-transform: uppercase;"} Launch Site

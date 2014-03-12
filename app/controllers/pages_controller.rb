@@ -8,4 +8,10 @@ class PagesController < ApplicationController
   def gopro
   end
 
+  def five9
+  end
+
+  def pop
+  end
+
 end

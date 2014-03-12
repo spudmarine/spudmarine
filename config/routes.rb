@@ -5,6 +5,8 @@ JennyPortfolio::Application.routes.draw do
   root 'pages#home'
 
   get '/gopro' => 'pages#gopro', :as => :gopro_work
+  get '/five9' => 'pages#five9', :as => :five9_work
+  get '/pop'   => 'pages#pop', :as => :pop_work
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
