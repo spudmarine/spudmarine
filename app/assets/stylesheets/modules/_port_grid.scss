@@ -8,10 +8,6 @@
   background-size: 175px;
   background-position-x: center;
   background-position-y: 50%;
-  a:hover {
-    background-color: $mintGreen;
-    cursor: pointer;
-  }
   &:before {
     content: "";
     display: block;
@@ -84,4 +80,17 @@
     //   -webkit-filter: grayscale(0);
     // }
   }
+}
+
+a.piece:hover {
+  background-color: $light-gray;
+  cursor: pointer;
+}
+
+li a.piece {
+  display: block;
+}
+
+[class*="block-grid-"] > li {
+  padding: 0px;
 }

@@ -4,7 +4,7 @@ JennyPortfolio::Application.routes.draw do
 
   root 'pages#home'
 
-  get '/gopro' => 'pages#gopro'
+  get '/gopro' => 'pages#gopro', :as => :gopro_work
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

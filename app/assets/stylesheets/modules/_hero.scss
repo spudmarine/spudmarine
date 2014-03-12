@@ -3,6 +3,7 @@
   background-size: 100%;
   background-size: cover;
   background-position: 50% 50%;
+  background-attachment: fixed;
   background-repeat: no-repeat no-repeat;
   @include box-shadow(inset 0px 2px 5px rgba($black, 0.2), inset 0px -3px 10px rgba($black, 0.4));
 }
