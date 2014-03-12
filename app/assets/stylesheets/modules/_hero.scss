@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('/assets/backgrounds/presidio-opt.jpg');
+  background-image: url('/assets/backgrounds/work-station.jpg');
   background-size: 100%;
   background-size: cover;
   background-position: 50% 50%;
@@ -25,6 +25,7 @@
 
 .page-jump {
   font-size: 1.75rem;
+  @extend %novecentosanswide-book;
 }
 
 .hero-padding {
