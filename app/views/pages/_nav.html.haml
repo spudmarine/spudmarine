@@ -2,16 +2,17 @@
   .row.nav__inner
     .large-3.small-12.medium-3.columns
       .nav__title
-        = link_to "Jenny Jayne", "#top"
+        = link_to "Jenny Jayne", root_path(:anchor => "top")
     .large-9.hide-palm.medium-9.columns
       .nav__list
         %ul
-          = link_to "#portfolio" do
+          = link_to root_path(:anchor => "portfolio") do
             %li Portfolio
-          = link_to "#about" do
+          = link_to root_path(:anchor => "about") do
             %li About Me
-          = link_to "#contact" do
+          = link_to root_path(:anchor => "contact") do
             %li Contact
+
 
 :javascript
   
@@ -23,8 +24,11 @@
     // Smoothly move the users to the sections
     $("ul a, .nav__title a").on("click", function() {
 
+      var target = $(this).attr("href");
+      var newTarget = target.replace(/\//g,'');
+
       $("html, body").animate({
-        scrollTop: $($(this).attr("href")).offset().top - navHeight
+        scrollTop: $(newTarget).offset().top - navHeight
       });
       return false;
 
