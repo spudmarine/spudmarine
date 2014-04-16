@@ -5,9 +5,9 @@ colorObject = (colorStart, colorUntil) ->
   offset = $(document).scrollTop()
   objOpacity = 1
 
-  if offset <= colorStart
-    objOpacity = 0
-  else objOpacity = (0 + offset / colorUntil) if offset <= colorUntil
+  if offset >= colorStart
+    objOpacity = 1
+  else objOpacity = (1 - offset / colorUntil) if offset <= colorUntil
 
     toColor.css 'background-color', ('rgba(0,0,0,' + objOpacity + ')')
 
@@ -23,7 +23,7 @@ colorObject = (colorStart, colorUntil) ->
 
 addEventListeners = ->
 
-  $('.nav').each ->
+  $('.nav--home').each ->
 
     colorStart = 0
     colorUntil = 0 + $('.hero').height()

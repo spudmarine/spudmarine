@@ -4,4 +4,11 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   layout "application"
+
+  before_filter :smooth_scroll
+
+	def smooth_scroll
+	  @controller = PagesController
+	  @action = home
+	end
 end

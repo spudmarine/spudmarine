@@ -13,25 +13,3 @@
           = link_to root_path(:anchor => "contact") do
             %li Contact
 
-
-:javascript
-  
-  $(document).ready(function() {
-
-    // Get nav height to clear nav
-    var navHeight = $("nav").height();
-
-    // Smoothly move the users to the sections
-    $("ul a, .nav__title a").on("click", function() {
-
-      var target = $(this).attr("href");
-      var newTarget = target.replace(/\//g,'');
-
-      $("html, body").animate({
-        scrollTop: $(newTarget).offset().top - navHeight
-      });
-      return false;
-
-    });
-
-  });
