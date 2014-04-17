@@ -13,13 +13,11 @@ fadeObject = (fadeStart, fadeUntil) ->
     toFade.css 'opacity', objOpacity
 
 addEventListeners = ->
-
   $('.js-fade-object').each ->
-
     fadeStart = $(this).data('fade-start')
     fadeUntil = $(this).offset().top + $(this).height() - 77
 
     fadeObject(fadeStart, fadeUntil)
 
-$(document).ready ->
+$(window).bind 'page:change', ->
   addEventListeners()
