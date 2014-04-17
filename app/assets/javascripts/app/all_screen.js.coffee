@@ -19,7 +19,7 @@ meetScreen = (element, line) ->
     $(line).each ->
       $(this).css('line-height', lineHeight + "px")
 
-$ ->
+$(window).bind 'page:change', ->
   resizeStrata()
   resizeDiv()
   $(window).resize(resizeStrata)

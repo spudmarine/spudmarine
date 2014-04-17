@@ -30,5 +30,5 @@ addEventListeners = ->
 
     colorObject(colorStart, colorUntil)
 
-$(document).ready ->
+$(window).bind 'page:change', ->
   addEventListeners()
