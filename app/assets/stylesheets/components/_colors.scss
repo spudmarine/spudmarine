@@ -13,8 +13,14 @@
 
 
 // FONT COLORS
-.c-dp, %c-dp    { background-color: $darkPurple; }
-.c-p, %c-p      { background-color: $purple; }
-.c-lp, %c-lp    { background-color: $lightPurple; }
-.c-lrp, %c-lrp  { background-color: $lighterPurple; }
-.c-c, %c-c      { background-color: $cream; }
+.c-dp, %c-dp    { color: $darkPurple; }
+.c-p, %c-p      { color: $purple; }
+.c-lp, %c-lp    { color: $lightPurple; }
+.c-lrp, %c-lrp  { color: $lighterPurple; }
+.c-c, %c-c      { color: $cream; }
+
+.c-orng-red     { color: $orangeRed; }
+.c-sea-grn      { color: $seaGreen; }
+
+.c-gry          { color: $gray; }
+.c-gry-drk      { color: $gray-dark; }
