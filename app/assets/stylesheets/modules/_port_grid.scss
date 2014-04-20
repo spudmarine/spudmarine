@@ -13,7 +13,7 @@
     padding-top: 35%;
   }
   &.gopro-redesign {
-    background-image: url('/assets/work_thumbnails/GoPro_Logo-black.svg');
+    background-image: url('/assets/logos/GoPro_Logo-black.svg');
     // filter: url(filters.svg#grayscale);
     // filter: gray;
     // -webkit-filter: grayscale(1);
@@ -23,7 +23,7 @@
     // }
   }
   &.five9 {
-    background-image: url('/assets/work_thumbnails/five9-logo.png');
+    background-image: url('/assets/logos/five9-logo.png');
     background-size: 125px;
     // filter: url(filters.svg#grayscale);
     // filter: gray;
@@ -34,7 +34,7 @@
     // }
   }
   &.pop {
-    background-image: url('/assets/work_thumbnails/pop-logo.png');
+    background-image: url('/assets/logos/pop-logo.png');
     // filter: url(filters.svg#grayscale);
     // filter: gray;
     // -webkit-filter: grayscale(1);
@@ -44,13 +44,13 @@
     // }
   }
   &.spudmarine {
-    background-image: url('/assets/work_thumbnails/nested-j-thumb.jpg');
+    background-image: url('/assets/logos/nested-j-thumb.jpg');
   }
   &.gopro-checkout {
-    background-image: url('/assets/work_thumbnails/gopro-checkout-thumb.jpg');
+    background-image: url('/assets/logos/gopro-checkout-thumb.jpg');
   }
   &.tank18 {
-    background-image: url('/assets/work_thumbnails/tank-logo.svg');
+    background-image: url('/assets/logos/tank-logo.svg');
     // filter: url(filters.svg#grayscale);
     // filter: gray;
     // -webkit-filter: grayscale(1);
@@ -60,7 +60,7 @@
     // }
   }
   &.pitchbook {
-    background-image: url('/assets/work_thumbnails/pitchbook-logo.png');
+    background-image: url('/assets/logos/pitchbook-logo.png');
     // filter: url(filters.svg#grayscale);
     // filter: gray;
     // -webkit-filter: grayscale(1);
@@ -70,7 +70,17 @@
     // }
   }
   &.excel {
-    background-image: url('/assets/work_thumbnails/excel-logo.png');
+    background-image: url('/assets/logos/excel-logo.png');
+    // filter: url(filters.svg#grayscale);
+    // filter: gray;
+    // -webkit-filter: grayscale(1);
+    // &:hover {
+    //   filter: none;
+    //   -webkit-filter: grayscale(0);
+    // }
+  }
+  &.bloom {
+    background-image: url('/assets/logos/bloom-logo-gray.svg');
     // filter: url(filters.svg#grayscale);
     // filter: gray;
     // -webkit-filter: grayscale(1);

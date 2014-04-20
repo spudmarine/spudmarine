@@ -110,3 +110,9 @@
 .icon-css3:before {
   content: "x";
 }
+.icon-setting-wrenches:before {
+  content: "y";
+}
+.icon-smartphone:before {
+  content: "z";
+}
