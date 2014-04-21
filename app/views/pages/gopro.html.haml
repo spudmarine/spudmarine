@@ -15,16 +15,25 @@
     %p Below are a few of the major projects I worked on at GoPro.
     %h5.pt-15.c-sea-grn E-Commerce Site Redesign
     %p.pt-10 In the summer of 2013 we revamped the entire website to a responsive, image and interaction-heavy application. The main areas of focus were the homepage and the store pages (store home, category pages and product information pages). We went with large images and embedded videos everywhere to sell the quality of GoPro footage.
-    %ul.clearing-thumbs.small-block-grid-4{ :data => { "data-clearing" => "true" } }
-      %li
-        %a{href: "assets/work_thumbnails/gopro/gp-homepage-hero.jpg"}
-          %img{src: "assets/work_thumbnails/gopro/gp-homepage-hero-th-sm.jpg"}
-      %li
-        %a{href: "assets/work_thumbnails/gopro/gp-homepage-hero.jpg"}
-          %img{src: "assets/work_thumbnails/gopro/gp-homepage-hero-th-sm.jpg"}
-      %li
-        %a{href: "assets/work_thumbnails/gopro/gp-homepage-hero.jpg"}
-          %img{src: "assets/work_thumbnails/gopro/gp-homepage-hero-th-sm.jpg"}
+    %div.galleria{style: "width: 100%; height: 500px;"}
+      %a{href: "assets/gopro-ecommerce-gallery/images/gp-homepage-hero.jpg"}
+        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-homepage-hero.jpg", "data-title" => "GoPro Homepage", "data-description" => "Full page video on the homepage."}
+      %a{href: "assets/gopro-ecommerce-gallery/images/gp-mount-carousel.jpg"}
+        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-mount-carousel.jpg", "data-title" => "GoPro Homepage", "data-description" => "Full page carousel for mounts and accessories."}
+      %a{href: "assets/gopro-ecommerce-gallery/images/gp-products-carousel.jpg"}
+        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-products-carousel.jpg", "data-title" => "GoPro Products Home", "data-description" => "Live text over image carousel for product home."}
+      %a{href: "assets/gopro-ecommerce-gallery/images/gp-camera-page.jpg"}
+        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-camera-page.jpg", "data-title" => "GoPro Camera Home", "data-description" => "Camera comparison with variable sized images for camera home."}
+      %a{href: "assets/gopro-ecommerce-gallery/images/gp-mounts-page.jpg"}
+        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-mounts-page.jpg", "data-title" => "GoPro Mounts Home", "data-description" => "Parallax banner image on mounts home."}
+      %a{href: "assets/gopro-ecommerce-gallery/images/gp-sba-picker.jpg"}
+        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-sba-picker.jpg", "data-title" => "GoPro Shop by Acitivity Page", "data-description" => "Selection module to shop by activity."}
+      %a{href: "assets/gopro-ecommerce-gallery/images/gp-sba-bundle.jpg"}
+        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-sba-bundle.jpg", "data-title" => "GoPro Shop by Acitivity Page", "data-description" => "Shot of a bundle."}
+      %a{href: "assets/gopro-ecommerce-gallery/images/gp-camera-pdp.jpg"}
+        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-camera-pdp.jpg", "data-title" => "GoPro Camera Product Page", "data-description" => "Product detail page for a camera."}
+      %a{href: "assets/gopro-ecommerce-gallery/images/gp-camera-pdp-video.jpg"}
+        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-camera-pdp-video.jpg", "data-title" => "GoPro Camera Product Page", "data-description" => "Product detail page with embedded video."}
   .small-12.large-4.columns.bg-gry-lghtr.p-30
     %p.pb-10{style: "font-weight: bold;"} PRACTICE AREAS
     .row
@@ -51,3 +60,12 @@
       .small-12.columns.pt-5
         %h5.pr-5{"data-icon" => "x", style: "display: inline-block; vertical-align: middle;"}
         %p{style: "display: inline-block;"} Front-End Development
+
+:javascript
+  
+  $(document).ready(function() {
+
+    Galleria.loadTheme('assets/galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria');
+
+  });
