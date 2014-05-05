@@ -14,4 +14,13 @@ class PagesController < ApplicationController
   def pop
   end
 
+  def bloom
+  end
+
+  def tank
+  end
+
+  def pitchbook
+  end
+
 end

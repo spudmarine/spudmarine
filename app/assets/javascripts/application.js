@@ -12,6 +12,7 @@
 //
 //= require foundation_vendor/modernizr
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
 //= require turbolinks
 //= require foundation_vendor/fastclick

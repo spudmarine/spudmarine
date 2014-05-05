@@ -1,6 +1,48 @@
-= render 'nav'
-
-.row.clear-nav
-	.small-12.columns
-		%h1 Five9
-		%p Dec 2012 - Feb 2013
+.bgc-gry-lghtr.p-20.mt-20
+  .row
+    .small-12.medium-8.columns
+      %h1.c-dark-blue Five9
+      %p.mb-0.c-gry
+        %small December 2012 - February 2013
+    .small-12.medium-4.columns
+      = link_to "http://www.five9.com", target: "_blank", class: "btn" do
+        View Live Site
+        %span{"data-icon" => "n", style: "float: right; position: relative;"}
+.ptb-30
+  .row
+    .small-12.large-8.columns
+      %p One of the large clients I worked for while at General Things was Five9. They provide cloud-based call center software. Tolleson Design, a firm we worked with often, was the primary for all the design work for the client's branding and website revamp. I worked at their offices at least three days a week for a few months to provide consultation on information architecture, responsive design, and front-end implementation.
+      %ul.medium-block-grid-3.mt-20{"data-clearing" => "true"}
+        %li
+          %a.th{href: "assets/five9-gallery/images/five9-resp.jpg"}
+            %img{src: "assets/five9-gallery/thumbs/five9-resp.jpg", "data-caption" => "Five9 is a fully responsive website"}
+        %li
+          %a.th{href: "assets/five9-gallery/images/five9-homepage.jpg"}
+            %img{src: "assets/five9-gallery/thumbs/five9-homepage.jpg", "data-caption" => "Five9 homepage hero right after launch"}
+        %li
+          %a.th{href: "assets/five9-gallery/images/five9-customers.jpg"}
+            %img{src: "assets/five9-gallery/thumbs/five9-customers.jpg", "data-caption" => "Five9 customers page"}
+        %li
+          %a.th{href: "assets/five9-gallery/images/five9-resources.jpg"}
+            %img{src: "assets/five9-gallery/thumbs/five9-resources.jpg", "data-caption" => "Five9 resource download and consumption page"}
+        %li
+          %a.th{href: "assets/five9-gallery/images/five9-pages-cms.jpg"}
+            %img{src: "assets/five9-gallery/thumbs/five9-pages-cms.jpg", "data-caption" => "Five9 custom admin for editing, rearranging, adding, and deleting page strata and data"}
+        %li
+          %a.th{href: "assets/five9-gallery/images/five9-add-strata-cms.jpg"}
+            %img{src: "assets/five9-gallery/thumbs/five9-add-strata-cms.jpg", "data-caption" => "Admin wireframes for selecting a strata layout"}
+    .small-12.large-4.columns
+      %div.p-15.c-blue.b-blue
+        %p.pb-10{style: "font-weight: bold;"} PRACTICE AREAS
+        .row
+          .small-12.columns.pt-5
+            %h5.pr-5{"data-icon" => "k", style: "display: inline-block; vertical-align: middle;"}
+            %p{style: "display: inline-block;"} Information Architecture
+        .row
+          .small-12.columns.pt-5
+            %h5.pr-5{"data-icon" => "g", style: "display: inline-block; vertical-align: middle;"}
+            %p{style: "display: inline-block;"} UX/UI Design
+        .row
+          .small-12.columns.pt-5
+            %h5.pr-5{"data-icon" => "j", style: "display: inline-block; vertical-align: middle;"}
+            %p{style: "display: inline-block;"} Responsive Design

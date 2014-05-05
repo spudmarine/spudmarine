@@ -34,20 +34,18 @@
   &.pitchbook {
     background-image: url('/assets/logos/pitchbook-logo.png');
   }
-  &.excel {
-    background-image: url('/assets/logos/excel-logo.png');
-  }
   &.bloom {
     background-image: url('/assets/logos/bloom-logo-gray.svg');
+    background-size: 300px;
   }
 }
 
-a.piece:hover {
+.piece:hover {
   background-color: $light-gray;
   cursor: pointer;
 }
 
-li a.piece {
+li a .piece {
   display: block;
 }
 
