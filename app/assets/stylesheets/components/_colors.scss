@@ -8,5 +8,19 @@
 .c-dark-blue { color: $parisDarkBlue; }
 .c-red       { color: $parisRed; }
 
-.c-gry          { color: $gray; }
-.c-gry-drk      { color: $gray-dark; }
+.c-gry       { color: $gray; }
+.c-gry-drk   { color: $gray-dark; }
+.c-white     { color: $white; }
+
+// BACKGROUND COLORS
+.bgc-beige     { background-color: $parisBeige; }
+.bgc-blue      { background-color: $parisBlue; }
+.bgc-dark-blue { background-color: $parisDarkBlue; }
+.bgc-red       { background-color: $parisRed; }
+
+.bgc-gry          { background-color: $gray; }
+.bgc-gry-drk      { background-color: $gray-dark; }
+
+.bgc-gry-lght  { background-color: $gray-light; }
+.bgc-gry-lghtr { background-color: $gray-lighter; }
+.bgc-white     { background-color: $white; }

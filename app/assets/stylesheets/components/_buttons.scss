@@ -1,0 +1,21 @@
+.btn {
+  display: block;
+  border: 1px solid $parisRed;
+  text-transform: uppercase;
+  width: 100%;
+  vertical-align: middle;
+  color: $parisRed;
+  padding: 12px;
+  &:hover {
+    color: $parisBlue;
+    border-color: $parisBlue;
+  }
+  @include transition (all 0.2s ease-in-out);
+  @include ie7-inline-block();
+}
+
+.btn:hover {
+  span[data-icon] {
+    @include animation(triangle-rotate .3s linear)
+  }
+}

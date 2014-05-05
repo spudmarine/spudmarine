@@ -1,65 +1,119 @@
 = render 'nav'
 
-.row.clear-nav
-  .small-12.medium-8.columns
-    %h1 GoPro
-    %p
-      %small March 2012 - Present
-  .small-12.medium-4.columns
-    %a.flt-r--desk{href: "http://www.gopro.com", target: "_blank"}
-      %div{"data-icon" => "v", style: "display: inline-block; vertical-align: middle;"}
-      .ml-5{style: "display: inline-block; text-transform: uppercase;"} Launch Site
-.row
+.bgc-gry-lghtr.p-20.mt-20
+  .row
+    .small-12.medium-8.columns
+      %h1.c-dark-blue GoPro
+      %p.mb-0.c-gry
+        %small March 2012 - Present
+    .small-12.medium-4.columns
+      = link_to "http://www.gopro.com", target: "_blank", class: "btn" do
+        View Live Site
+        %span{"data-icon" => "n", style: "float: right; position: relative;"}
+.row.mt-20
   .small-12.large-8.columns
     %p I worked as an UX Designer on web-related projects for GoPro for two years. When I started out, I was working for General Things, their main web development vendor. In October of 2013, General Things was acquired by GoPro and I became a full-time GoPro employee. I was the only dedicated designer in our shop for a year and a half. As such, I learned to where a variety of hats and expanded my skills in UX research, information architecture, visual design and front-end development while strengthening my skills in UX design.
     %p Below are a few of the major projects I worked on at GoPro.
-    %h5.pt-15.c-sea-grn E-Commerce Site Redesign
+    %h5.pt-15.c-blue E-Commerce Site Redesign
     %p.pt-10 In the summer of 2013 we revamped the entire website to a responsive, image and interaction-heavy application. The main areas of focus were the homepage and the store pages (store home, category pages and product information pages). We went with large images and embedded videos everywhere to sell the quality of GoPro footage.
-    %div.galleria{style: "width: 100%; height: 500px;"}
-      %a{href: "assets/gopro-ecommerce-gallery/images/gp-homepage-hero.jpg"}
-        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-homepage-hero.jpg", "data-title" => "GoPro Homepage", "data-description" => "Full page video on the homepage."}
-      %a{href: "assets/gopro-ecommerce-gallery/images/gp-mount-carousel.jpg"}
-        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-mount-carousel.jpg", "data-title" => "GoPro Homepage", "data-description" => "Full page carousel for mounts and accessories."}
-      %a{href: "assets/gopro-ecommerce-gallery/images/gp-products-carousel.jpg"}
-        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-products-carousel.jpg", "data-title" => "GoPro Products Home", "data-description" => "Live text over image carousel for product home."}
-      %a{href: "assets/gopro-ecommerce-gallery/images/gp-camera-page.jpg"}
-        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-camera-page.jpg", "data-title" => "GoPro Camera Home", "data-description" => "Camera comparison with variable sized images for camera home."}
-      %a{href: "assets/gopro-ecommerce-gallery/images/gp-mounts-page.jpg"}
-        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-mounts-page.jpg", "data-title" => "GoPro Mounts Home", "data-description" => "Parallax banner image on mounts home."}
-      %a{href: "assets/gopro-ecommerce-gallery/images/gp-sba-picker.jpg"}
-        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-sba-picker.jpg", "data-title" => "GoPro Shop by Acitivity Page", "data-description" => "Selection module to shop by activity."}
-      %a{href: "assets/gopro-ecommerce-gallery/images/gp-sba-bundle.jpg"}
-        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-sba-bundle.jpg", "data-title" => "GoPro Shop by Acitivity Page", "data-description" => "Shot of a bundle."}
-      %a{href: "assets/gopro-ecommerce-gallery/images/gp-camera-pdp.jpg"}
-        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-camera-pdp.jpg", "data-title" => "GoPro Camera Product Page", "data-description" => "Product detail page for a camera."}
-      %a{href: "assets/gopro-ecommerce-gallery/images/gp-camera-pdp-video.jpg"}
-        %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-camera-pdp-video.jpg", "data-title" => "GoPro Camera Product Page", "data-description" => "Product detail page with embedded video."}
-  .small-12.large-4.columns.bg-gry-lghtr.p-30
-    %p.pb-10{style: "font-weight: bold;"} PRACTICE AREAS
-    .row
-      .small-12.columns
-        %h5.pr-5{"data-icon" => "u", style: "display: inline-block; vertical-align: middle;"}
-        %p{style: "display: inline-block;"} UX Research
-    .row
-      .small-12.columns.pt-5
-        %h5.pr-5{"data-icon" => "i", style: "display: inline-block; vertical-align: middle;"}
-        %p{style: "display: inline-block;"} Information Architecture
-    .row
-      .small-12.columns.pt-5
-        %h5.pr-5{"data-icon" => "w", style: "display: inline-block; vertical-align: middle;"}
-        %p{style: "display: inline-block;"} UX/UI Design
-    .row
-      .small-12.columns.pt-5
-        %h5.pr-5{"data-icon" => "z", style: "display: inline-block; vertical-align: middle;"}
-        %p{style: "display: inline-block;"} Responsive Design
-    .row
-      .small-12.columns.pt-5
-        %h5.pr-5{"data-icon" => "r", style: "display: inline-block; vertical-align: middle;"}
-        %p{style: "display: inline-block;"} Visual Design
-    .row
-      .small-12.columns.pt-5
-        %h5.pr-5{"data-icon" => "x", style: "display: inline-block; vertical-align: middle;"}
-        %p{style: "display: inline-block;"} Front-End Development
+    %ul.medium-block-grid-3.mt-20{"data-clearing" => "true"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/gp-homepage-hero.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-homepage-hero.jpg", "data-caption" => "Full page video on the homepage"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/gp-mount-carousel.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-mount-carousel.jpg", "data-caption" => "Full page carousel for mounts and accessories"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/gp-products-carousel.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-products-carousel.jpg", "data-caption" => "Live text over image carousel for product home"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/gp-camera-page.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-camera-page.jpg", "data-caption" => "Camera comparison with variable sized images for camera home"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/gp-mounts-page.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-mounts-page.jpg", "data-caption" => "Parallax banner image on mounts home"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/gp-sba-picker.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-sba-picker.jpg", "data-caption" => "Selection module to shop by activity"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/gp-sba-bundle.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-sba-bundle.jpg", "data-caption" => "Shot of a bundle"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/gp-camera-pdp.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-camera-pdp.jpg", "data-caption" => "Product detail page for a camera"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/gp-camera-pdp-video.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/gp-camera-pdp-video.jpg", "data-caption" => "Product detail page with embedded video"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/responsive-home.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/responsive-home.jpg", "data-caption" => "Fully responsive site (homepage shown here)"}
+      %li
+        %a.th{href: "assets/gopro-ecommerce-gallery/images/responsive-camera-home.jpg"}
+          %img{src: "assets/gopro-ecommerce-gallery/thumbs/responsive-camera-home.jpg", "data-caption" => "Responsive camera home"}
+    %hr
+    %h5.pt-15.c-blue Cart &amp; Checkout Redesign
+    %p.pt-10 Before we launched the ecommerce redesign, we launched a revamped cart and checkout process. Cart and checkout were controlled by a third party service, and therefore we had limited control over the functionality and look of the cart and checkout pages. We resolved to add a mini-cart to give users feedback when they added an item to the cart, a cleaner cart page that matched the redesign styling and a new, simplified checkout process to maker purchasing more delightful.
+    %ul.medium-block-grid-3.mt-20{"data-clearing" => "true"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/mini-cart.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/mini-cart.jpg", "data-caption" => "Mini-cart pulled down after adding a camera to the cart"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/login.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/login.jpg", "data-caption" => "Login screen to checkout (based on business req)"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/three-step.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/three-step.jpg", "data-caption" => "Three step, fully-visible checkout process"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/show-cart.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/show-cart.jpg", "data-caption" => "Togglable cart on top to see items"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/completed-step.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/completed-step.jpg", "data-caption" => "Step completion with summary and edit button"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/cc-recognized.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/cc-recognized.jpg", "data-caption" => "Automatically recognized credit card type"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/responsive-mini-cart.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/responsive-mini-cart.jpg", "data-caption" => "Mini-cart adjusts for smaller displays"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/responsive-cart.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/responsive-cart.jpg", "data-caption" => "Cart and checkout process made fully responsive"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/responsive-edit-item.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/responsive-edit-item.jpg", "data-caption" => "Cart and checkout process made fully responsive"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/responsive-step-1.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/responsive-step-1.jpg", "data-caption" => "Checkout steps focused to one at a time"}
+      %li
+        %a.th{href: "assets/gopro-checkout-gallery/images/responsive-step-2.jpg"}
+          %img{src: "assets/gopro-checkout-gallery/thumbs/responsive-step-2.jpg", "data-caption" => "Feedback for completed steps"}
+  .small-12.large-4.columns
+    %div.p-15.c-blue.b-blue
+      %p.pb-10{style: "font-weight: bold;"} PRACTICE AREAS
+      .row
+        .small-12.columns
+          %h5.pr-5{"data-icon" => "i", style: "display: inline-block; vertical-align: middle;"}
+          %p{style: "display: inline-block;"} UX Research
+      .row
+        .small-12.columns.pt-5
+          %h5.pr-5{"data-icon" => "k", style: "display: inline-block; vertical-align: middle;"}
+          %p{style: "display: inline-block;"} Information Architecture
+      .row
+        .small-12.columns.pt-5
+          %h5.pr-5{"data-icon" => "g", style: "display: inline-block; vertical-align: middle;"}
+          %p{style: "display: inline-block;"} UX/UI Design
+      .row
+        .small-12.columns.pt-5
+          %h5.pr-5{"data-icon" => "j", style: "display: inline-block; vertical-align: middle;"}
+          %p{style: "display: inline-block;"} Responsive Design
+      .row
+        .small-12.columns.pt-5
+          %h5.pr-5{"data-icon" => "h", style: "display: inline-block; vertical-align: middle;"}
+          %p{style: "display: inline-block;"} Visual Design
+      .row
+        .small-12.columns.pt-5
+          %h5.pr-5{"data-icon" => "l", style: "display: inline-block; vertical-align: middle;"}
+          %p{style: "display: inline-block;"} Front-End Development
 
 :javascript
   

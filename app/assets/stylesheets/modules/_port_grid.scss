@@ -51,6 +51,6 @@ li a.piece {
   display: block;
 }
 
-[class*="block-grid-"] > li {
+ul[class*="block-grid-"].port-grid > li {
   padding: 0px;
 }
