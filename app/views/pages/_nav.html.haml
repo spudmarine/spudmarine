@@ -1,15 +1,23 @@
-%nav.nav{class: home_nav?("home")}
+%nav
   .row.nav__inner
     .large-3.small-12.medium-3.columns
       .nav__title
-        = link_to "Jenny Jayne", root_path(:anchor => "top")
+        = link_to root_path do
+          %img.mr-5{src: "assets/jenny-logo.svg", style: "display: inline-block; height: 30px; vertical-align: middle;"}
+          Jenny Jayne
     .large-9.hide-palm.medium-9.columns
       .nav__list
         %ul
-          = link_to root_path(:anchor => "portfolio") do
-            %li Portfolio
-          = link_to root_path(:anchor => "about") do
-            %li About Me
-          = link_to root_path(:anchor => "contact") do
-            %li Contact
+          %li
+            = link_to "https://dribbble.com/spudmarine" do
+              %span{"data-icon" => "d"}
+          %li
+            = link_to "https://twitter.com/JennyJayneUX" do
+              %span{"data-icon" => "c"}
+          %li
+            = link_to "https://www.linkedin.com/in/jenniferjayne" do
+              %span{"data-icon" => "b"}
+          %li
+            %a{href: "mailto:jenny.m.jayne@gmail.com"}
+              %span{"data-icon" => "e"}
 

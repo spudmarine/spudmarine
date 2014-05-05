@@ -2,25 +2,11 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-// BACKGROUND COLORS
-.bg-dp, %bg-dp               { background-color: $darkPurple; }
-.bg-p, %bg-p                 { background-color: $purple; }
-.bg-lp, %bg-lp               { background-color: $lightPurple; }
-.bg-lrp, %bg-lrp             { background-color: $lighterPurple; }
-.bg-c, %bg-c                 { background-color: $cream; }
-.bg-gry-lghtr, %bg-gry-lghtr { background-color: $gray-lighter; }
-
-
-
 // FONT COLORS
-.c-dp, %c-dp    { color: $darkPurple; }
-.c-p, %c-p      { color: $purple; }
-.c-lp, %c-lp    { color: $lightPurple; }
-.c-lrp, %c-lrp  { color: $lighterPurple; }
-.c-c, %c-c      { color: $cream; }
-
-.c-orng-red     { color: $orangeRed; }
-.c-sea-grn      { color: $seaGreen; }
+.c-beige     { color: $parisBeige; }
+.c-blue      { color: $parisBlue; }
+.c-dark-blue { color: $parisDarkBlue; }
+.c-red       { color: $parisRed; }
 
 .c-gry          { color: $gray; }
 .c-gry-drk      { color: $gray-dark; }

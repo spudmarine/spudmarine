@@ -21,4 +21,3 @@
 //= require galleria/galleria-1.3.5.min
 //= require app/all_screen
 //= require app/fade_scroll
-//= require app/bgc_scroll
