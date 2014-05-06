@@ -26,12 +26,12 @@ body, p {
 
 a, a:active, a:focus {
   cursor: pointer;
-  color: $gray-darker;
+  color: $parisRed;
   transition: none;
   -webkit-transition: none;
   -moz-transition: none;
   &:hover {
-    color: $orangeRed;
+    color: darken($parisRed, .15);
     text-decoration: none;
   }
 }
