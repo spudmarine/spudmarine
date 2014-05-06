@@ -1,0 +1,26 @@
+.th:hover, .th:focus {
+  box-shadow: 0 0 0px 1px rgba(196, 71, 65, 0.5); }
+
+.th {
+  border: none;
+}
+
+.clearing-main-prev > span,
+.clearing-main-next > span {
+  border-color: transparent;
+  border-right-color: transparent;
+  border: solid 0px;
+}
+
+.clearing-main-prev > span {
+  left: 20px;
+}
+
+.clearing-main-prev > span:hover,
+.clearing-main-next > span:hover {
+  opacity: 0.8; 
+}
+
+.clearing-assembled .clearing-container .carousel {
+  margin-top: 0px;
+}

@@ -1,6 +1,44 @@
-= render 'nav'
-
-.row.clear-nav
-	.small-12.columns
-		%h1 Purveyors of Pop
-		%p Oct 2012 - July 2013
+.bgc-gry-lghtr.ptb-20.mt-20
+  .row
+    .small-12.medium-8.columns
+      %h1.c-dark-blue Purveyors of Pop
+      %p.mb-0.c-gry
+        %small October 2012 - July 2013
+    .small-12.medium-4.columns.palm-mt-20
+      = link_to "http://www.purveyorsofpop.com", target: "_blank", class: "btn" do
+        View Live Site
+        %span{"data-icon" => "n", style: "float: right; position: relative;"}
+.ptb-30
+  .row
+    .small-12.large-8.columns
+      %p Purveyors of Pop is a small television production team located in Los Angeles, CA. You may know some of their work: Real Housewives of Miami, Married to Medicine, and Psychic Tia. For this project, we worked with another visual designer to give PoP a basic presence on the web that spoke to their pop culture roots and lively personality.
+      %ul.medium-block-grid-3.small-block-grid-3.mt-20{"data-clearing" => "true"}
+        %li
+          %a.th{href: "assets/pop-gallery/images/pop.jpg"}
+            %img{src: "assets/pop-gallery/thumbs/pop.jpg", "data-caption" => "Purveyors of Pop homepage"}
+        %li
+          %a.th{href: "assets/pop-gallery/images/pop-prod.jpg"}
+            %img{src: "assets/pop-gallery/thumbs/pop-prod.jpg", "data-caption" => "PoP productions page"}
+        %li
+          %a.th{href: "assets/pop-gallery/images/pop-about-top.jpg"}
+            %img{src: "assets/pop-gallery/thumbs/pop-about-top.jpg", "data-caption" => "PoP about page (top)"}
+        %li
+          %a.th{href: "assets/pop-gallery/images/pop-about-bottom.jpg"}
+            %img{src: "assets/pop-gallery/thumbs/pop-about-bottom.jpg", "data-caption" => "PoP about page (bottom)"}
+        %li
+          %a.th{href: "assets/pop-gallery/images/pop-home-wires.png"}
+            %img{src: "assets/pop-gallery/thumbs/pop-home-wires.jpg", "data-caption" => "Homepage wireframe"}
+        %li
+          %a.th{href: "assets/pop-gallery/images/pop-prod-wires.png"}
+            %img{src: "assets/pop-gallery/thumbs/pop-prod-wires.jpg", "data-caption" => "Production page wireframes"}
+    .small-12.large-4.columns
+      %div.p-15.c-blue.b-blue
+        %p.pb-10{style: "font-weight: bold;"} PRACTICE AREAS
+        .row
+          .small-12.columns.pt-5
+            %h5.pr-5{"data-icon" => "k", style: "display: inline-block; vertical-align: middle;"}
+            %p{style: "display: inline-block;"} Information Architecture
+        .row
+          .small-12.columns.pt-5
+            %h5.pr-5{"data-icon" => "g", style: "display: inline-block; vertical-align: middle;"}
+            %p{style: "display: inline-block;"} UX/UI Design

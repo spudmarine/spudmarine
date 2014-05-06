@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "untitled-font-2";
-  src:url("icon_fonts/untitled-font-2.eot");
-  src:url("icon_fonts/untitled-font-2.eot?#iefix") format("embedded-opentype"),
-    url("icon_fonts/untitled-font-2.woff") format("woff"),
-    url("icon_fonts/untitled-font-2.ttf") format("truetype"),
-    url("icon_fonts/untitled-font-2.svg#untitled-font-2") format("svg");
+  font-family: "spudmarine";
+  src:url("icon_fonts/spudmarine.eot");
+  src:url("icon_fonts/spudmarine.eot?#iefix") format("embedded-opentype"),
+    url("icon_fonts/spudmarine.woff") format("woff"),
+    url("icon_fonts/spudmarine.ttf") format("truetype"),
+    url("icon_fonts/spudmarine.svg#spudmarine") format("svg");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "untitled-font-2" !important;
+  font-family: "spudmarine" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -25,9 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "untitled-font-2" !important;
+[class^="spud-"]:before,
+[class*=" spud-"]:before {
+  font-family: "spudmarine" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -38,81 +38,63 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow-rectangle-down:before {
+.spud-github-circled:before {
   content: "a";
 }
-.icon-arrow-rectangle-up:before {
+.spud-linkedin-circled:before {
   content: "b";
 }
-.icon-dribbble:before {
+.spud-twitter-circled:before {
   content: "c";
 }
-.icon-linkedin-alt:before {
+.spud-dribbble-circled:before {
   content: "d";
 }
-.icon-behance:before {
+.spud-address-2:before {
   content: "e";
 }
-.icon-email:before {
+.spud-arrow-left-1:before {
   content: "f";
 }
-.icon-cloud-download:before {
+.spud-stationery-1:before {
   content: "g";
 }
-.icon-globe:before {
+.spud-palette:before {
   content: "h";
 }
-.icon-hierarchy-6:before {
+.spud-profile-6:before {
   content: "i";
 }
-.icon-chair-director:before {
+.spud-scale-tool-3:before {
   content: "j";
 }
-.icon-bow:before {
+.spud-hierarchy-6:before {
   content: "k";
 }
-.icon-arrow-2:before {
+.spud-css3:before {
   content: "l";
 }
-.icon-flickr:before {
+.spud-next-1:before {
   content: "m";
 }
-.icon-github-alt:before {
+.spud-arrow-58:before {
   content: "n";
 }
-.icon-linkedin:before {
+.spud-connection-2:before {
   content: "o";
 }
-.icon-twitter-alt:before {
+.spud-house-1:before {
   content: "p";
 }
-.icon-check-3:before {
+.spud-necktie:before {
   content: "q";
 }
-.icon-palette:before {
-  content: "r";
+.spud-delete-1:before {
+  content: "o";
 }
-.icon-html5:before {
-  content: "s";
+.spud-arrow-38:before {
+  content: "p";
 }
-.icon-arrange-4-1:before {
-  content: "t";
-}
-.icon-profile-6:before {
-  content: "u";
-}
-.icon-next-1:before {
-  content: "v";
-}
-.icon-stationery-1:before {
-  content: "w";
-}
-.icon-css3:before {
-  content: "x";
-}
-.icon-setting-wrenches:before {
-  content: "y";
-}
-.icon-smartphone:before {
-  content: "z";
+.spud-arrow-37:before {
+  content: "q";
 }

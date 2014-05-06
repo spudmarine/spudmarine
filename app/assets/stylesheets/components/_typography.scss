@@ -2,16 +2,6 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-// DARK LINKS
-a.link-dark,
-a:active.link-dark,
-a:focus.link-dark {
-	color: $white;
-	&:hover {
-    color: $orangeRed;
-  }
-}
-
 // TEXT ALIGN
 .ta-r, %ta-r { text-align: right; }
 .ta-l, %ta-l { text-align: left; }

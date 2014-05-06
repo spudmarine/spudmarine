@@ -1,0 +1,24 @@
+@media all and (max-width: $palm-max) {
+
+  .ta-centered--palm {
+    text-align: center;
+  }
+
+  .nav__list {
+    ul {
+      float: none;
+      text-align: center;
+    }
+    padding-top: 20px;
+  }
+
+  .portfolio {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .palm-mt-20 {
+    margin-top: 20px;
+  }
+
+}

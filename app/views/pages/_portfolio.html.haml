@@ -1,20 +1,18 @@
-#portfolio.row.jump-anchor
+.row.portfolio
   .small-12.columns
-    %h1.mt-50 Portfolio
-.row.mt-10.mb-50
-  .small-12.columns
-    %ul.large-block-grid-3.medium-block-grid-3.small-block-grid-1
+    %ul.large-block-grid-2.medium-block-grid-2.small-block-grid-1.port-grid
       %li
-        %a.piece.gopro-redesign{href: gopro_work_path}
+        = link_to gopro_work_path do
+          .piece.gopro
       %li
-        %a.piece.five9{href: five9_work_path}
+        = link_to five9_work_path do
+          .piece.five9
       %li
-        %a.piece.pop{href: pop_work_path}
-  .small-12.columns
-    %ul.large-block-grid-3.medium-block-grid-3.small-block-grid-1
+        = link_to bloom_work_path do
+          .piece.bloom
       %li
-        %a.piece.excel
+        = link_to pop_work_path do
+          .piece.pop
       %li
-        %a.piece.tank18
-      %li
-        %a.piece.pitchbook
+        = link_to pitchbook_work_path do
+          .piece.pitchbook

@@ -1,3 +1,8 @@
+.portfolio {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
 .piece {
   @include transition(all .2s ease-in-out);
   background-color: $gray-lighter;
@@ -12,94 +17,34 @@
     display: block;
     padding-top: 35%;
   }
-  &.gopro-redesign {
+  &.gopro {
     background-image: url('/assets/logos/GoPro_Logo-black.svg');
-    // filter: url(filters.svg#grayscale);
-    // filter: gray;
-    // -webkit-filter: grayscale(1);
-    // &:hover {
-    //   filter: none;
-    //   -webkit-filter: grayscale(0);
-    // }
   }
   &.five9 {
     background-image: url('/assets/logos/five9-logo.png');
     background-size: 125px;
-    // filter: url(filters.svg#grayscale);
-    // filter: gray;
-    // -webkit-filter: grayscale(1);
-    // &:hover {
-    //   filter: none;
-    //   -webkit-filter: grayscale(0);
-    // }
   }
   &.pop {
     background-image: url('/assets/logos/pop-logo.png');
-    // filter: url(filters.svg#grayscale);
-    // filter: gray;
-    // -webkit-filter: grayscale(1);
-    // &:hover {
-    //   filter: none;
-    //   -webkit-filter: grayscale(0);
-    // }
-  }
-  &.spudmarine {
-    background-image: url('/assets/logos/nested-j-thumb.jpg');
-  }
-  &.gopro-checkout {
-    background-image: url('/assets/logos/gopro-checkout-thumb.jpg');
-  }
-  &.tank18 {
-    background-image: url('/assets/logos/tank-logo.svg');
-    // filter: url(filters.svg#grayscale);
-    // filter: gray;
-    // -webkit-filter: grayscale(1);
-    // &:hover {
-    //   filter: none;
-    //   -webkit-filter: grayscale(0);
-    // }
   }
   &.pitchbook {
     background-image: url('/assets/logos/pitchbook-logo.png');
-    // filter: url(filters.svg#grayscale);
-    // filter: gray;
-    // -webkit-filter: grayscale(1);
-    // &:hover {
-    //   filter: none;
-    //   -webkit-filter: grayscale(0);
-    // }
-  }
-  &.excel {
-    background-image: url('/assets/logos/excel-logo.png');
-    // filter: url(filters.svg#grayscale);
-    // filter: gray;
-    // -webkit-filter: grayscale(1);
-    // &:hover {
-    //   filter: none;
-    //   -webkit-filter: grayscale(0);
-    // }
   }
   &.bloom {
     background-image: url('/assets/logos/bloom-logo-gray.svg');
-    // filter: url(filters.svg#grayscale);
-    // filter: gray;
-    // -webkit-filter: grayscale(1);
-    // &:hover {
-    //   filter: none;
-    //   -webkit-filter: grayscale(0);
-    // }
+    background-size: 300px;
   }
 }
 
-a.piece:hover {
+.piece:hover {
   background-color: $light-gray;
   cursor: pointer;
 }
 
-li a.piece {
+li a .piece {
   display: block;
 }
 
-[class*="block-grid-"] > li {
+ul[class*="block-grid-"].port-grid > li {
   padding: 0px;
 }

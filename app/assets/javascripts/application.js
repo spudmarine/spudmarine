@@ -10,15 +10,14 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require foundation_vendor/modernizr
 //= require jquery
+//= require jquery.turbolinks
 //= require jquery_ujs
 //= require turbolinks
-//= require foundation.min
 //= require foundation_vendor/fastclick
+//= require foundation.min
+//= require foundation.clearing
+//= require foundation.magellan
 //= require foundation_vendor/jquery.cookie
-//= require foundation_vendor/modernizr
 //= require foundation_vendor/placeholder
-//= require galleria/galleria-1.3.5.min
-//= require app/all_screen
-//= require app/fade_scroll
-//= require app/bgc_scroll

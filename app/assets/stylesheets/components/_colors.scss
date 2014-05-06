@@ -2,25 +2,25 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-// BACKGROUND COLORS
-.bg-dp, %bg-dp               { background-color: $darkPurple; }
-.bg-p, %bg-p                 { background-color: $purple; }
-.bg-lp, %bg-lp               { background-color: $lightPurple; }
-.bg-lrp, %bg-lrp             { background-color: $lighterPurple; }
-.bg-c, %bg-c                 { background-color: $cream; }
-.bg-gry-lghtr, %bg-gry-lghtr { background-color: $gray-lighter; }
-
-
-
 // FONT COLORS
-.c-dp, %c-dp    { color: $darkPurple; }
-.c-p, %c-p      { color: $purple; }
-.c-lp, %c-lp    { color: $lightPurple; }
-.c-lrp, %c-lrp  { color: $lighterPurple; }
-.c-c, %c-c      { color: $cream; }
+.c-beige     { color: $parisBeige; }
+.c-blue      { color: $parisBlue; }
+.c-dark-blue { color: $parisDarkBlue; }
+.c-red       { color: $parisRed; }
 
-.c-orng-red     { color: $orangeRed; }
-.c-sea-grn      { color: $seaGreen; }
+.c-gry       { color: $gray; }
+.c-gry-drk   { color: $gray-dark; }
+.c-white     { color: $white; }
 
-.c-gry          { color: $gray; }
-.c-gry-drk      { color: $gray-dark; }
+// BACKGROUND COLORS
+.bgc-beige     { background-color: $parisBeige; }
+.bgc-blue      { background-color: $parisBlue; }
+.bgc-dark-blue { background-color: $parisDarkBlue; }
+.bgc-red       { background-color: $parisRed; }
+
+.bgc-gry          { background-color: $gray; }
+.bgc-gry-drk      { background-color: $gray-dark; }
+
+.bgc-gry-lght  { background-color: $gray-light; }
+.bgc-gry-lghtr { background-color: $gray-lighter; }
+.bgc-white     { background-color: $white; }
