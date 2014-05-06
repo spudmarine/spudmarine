@@ -8,15 +8,15 @@
 
     settings : {
       templates : {
-        viewing : '<a href="#" class="clearing-close">&times;</a>' +
+        viewing : '<a href="#" class="clearing-close"><span data-icon="o"></span></a>' +
           '<div class="visible-img" style="display: none"><div class="clearing-touch-label"></div><img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%3D" alt="" />' +
-          '<p class="clearing-caption"></p><a href="#" class="clearing-main-prev"><span></span></a>' +
-          '<a href="#" class="clearing-main-next"><span></span></a></div>'
+          '<p class="clearing-caption"></p><a href="#" class="clearing-main-prev"><span data-icon="q"></span></a>' +
+          '<a href="#" class="clearing-main-next"><span data-icon="p"></span></a></div>'
       },
 
       // comma delimited list of selectors that, on click, will close clearing,
       // add 'div.clearing-blackout, div.visible-img' to close on background click
-      close_selectors : '.clearing-close',
+      close_selectors : '.clearing-close span',
 
       touch_label : '',
 

@@ -17,9 +17,6 @@ class PagesController < ApplicationController
   def bloom
   end
 
-  def tank
-  end
-
   def pitchbook
   end
 

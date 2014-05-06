@@ -8,7 +8,6 @@ JennyPortfolio::Application.routes.draw do
   get '/five9'     => 'pages#five9',     :as => :five9_work
   get '/pop'       => 'pages#pop',       :as => :pop_work
   get '/bloom'     => 'pages#bloom',     :as => :bloom_work
-  get '/tank'      => 'pages#tank',      :as => :tank_work
   get '/pitchbook' => 'pages#pitchbook', :as => :pitchbook_work
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

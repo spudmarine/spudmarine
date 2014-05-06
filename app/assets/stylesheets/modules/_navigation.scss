@@ -5,8 +5,7 @@
 
 // Set Up Styles for Nav Bar
 .nav__inner {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0px;
   color: $parisDarkBlue;
   text-transform: uppercase;
   @extend %novecentosanswide-medium;

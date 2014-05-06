@@ -4,3 +4,23 @@
 .th {
   border: none;
 }
+
+.clearing-main-prev > span,
+.clearing-main-next > span {
+  border-color: transparent;
+  border-right-color: transparent;
+  border: solid 0px;
+}
+
+.clearing-main-prev > span {
+  left: 20px;
+}
+
+.clearing-main-prev > span:hover,
+.clearing-main-next > span:hover {
+  opacity: 0.8; 
+}
+
+.clearing-assembled .clearing-container .carousel {
+  margin-top: 0px;
+}

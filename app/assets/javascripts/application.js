@@ -21,5 +21,3 @@
 //= require foundation.magellan
 //= require foundation_vendor/jquery.cookie
 //= require foundation_vendor/placeholder
-//= require app/all_screen
-//= require app/fade_scroll

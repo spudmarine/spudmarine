@@ -1,21 +1,21 @@
 %nav
   .row.nav__inner
-    .large-3.small-12.medium-3.columns
-      .nav__title
+    .small-12.medium-4.columns
+      .nav__title.ta-centered--palm
         = link_to root_path do
           %img.mr-5{src: "assets/jenny-logo.svg", style: "display: inline-block; height: 30px; vertical-align: middle;"}
           Jenny Jayne
-    .large-9.hide-palm.medium-9.columns
+    .small-12.medium-8.columns
       .nav__list
         %ul
           %li
-            = link_to "https://dribbble.com/spudmarine" do
+            = link_to "https://dribbble.com/spudmarine", target: "_blank" do
               %span{"data-icon" => "d"}
           %li
-            = link_to "https://twitter.com/JennyJayneUX" do
+            = link_to "https://twitter.com/JennyJayneUX", target: "_blank" do
               %span{"data-icon" => "c"}
           %li
-            = link_to "https://www.linkedin.com/in/jenniferjayne" do
+            = link_to "https://www.linkedin.com/in/jenniferjayne", target: "_blank" do
               %span{"data-icon" => "b"}
           %li
             %a{href: "mailto:jenny.m.jayne@gmail.com"}
