@@ -1,7 +1,19 @@
 // TOP NAVIGATION
 ////////////////////////////////////////////////////////////////////////////////
 
-// Fix Nav Bar to Top
+// Fixed Footer
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+.footer {
+  padding: 40px 0px 60px;
+  position: relative;
+  bottom: 0px;
+  height: 40px;
+}
 
 // Set Up Styles for Nav Bar
 .nav__inner {
