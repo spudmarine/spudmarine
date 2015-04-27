@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def home
   end
 
+  def wagwag
+  end
+
   def gopro
   end
 

@@ -4,6 +4,7 @@ JennyPortfolio::Application.routes.draw do
 
   root 'pages#home'
 
+  get '/wagwag'    => 'pages#wagwag',    :as => :wagwag_work
   get '/gopro'     => 'pages#gopro',     :as => :gopro_work
   get '/five9'     => 'pages#five9',     :as => :five9_work
   get '/pop'       => 'pages#pop',       :as => :pop_work
