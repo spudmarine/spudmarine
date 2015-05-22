@@ -7,6 +7,8 @@ gem 'neat'
 gem 'foreman'
 gem 'jquery-turbolinks'
 
+gem 'figaro'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.8'
 
